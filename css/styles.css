@@ -1,0 +1,44 @@
+html {
+  box-sizing:border-box;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+a{
+  text-decoration: none;
+}
+#wrapper{
+  width: 1320px;
+  margin: 0px auto;
+  text-align: center;
+}
+#square_one {
+  margin-top: 100px;
+  display: inline-block;
+  width:200px;
+  height:200px;
+  padding:10px;
+  color:#000;
+  background:green; 
+  transition:3s ease-in-out;
+}
+.show{  
+  transform:scale(2)rotate(1080deg);
+}
+#btn{
+  margin: 100px;
+}
+button{
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: red;
+  color: #fff;
+  transition:2s ease-in-out;
+}
+button:hover{
+  background-color: green;
+  color: #000;
+  transform: scale(2);
+  cursor: pointer;
+}
